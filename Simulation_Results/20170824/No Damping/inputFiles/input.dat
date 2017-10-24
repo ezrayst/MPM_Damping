@@ -1,0 +1,22 @@
+#-- input output file names --
+inputMeshFileName              column_simple/inputFiles/mesh.smf
+inputSubMeshFileName           column_simple/inputFiles/submesh.dat
+constraintsFileName   	       column_simple/inputFiles/mesh.constraints
+inputSoilParticleFileName      column_simple/inputFiles/soilParticles.dat
+initStressSoilPFileName        column_simple/inputFiles/initStressSoilP.dat
+materialFileName               column_simple/inputFiles/material.dat
+tractionsSoilPFileName			column_simple/inputFiles/Traction.dat
+outputFileName                 column_simple/results/results1.ile
+
+#-- other parameters --
+gravityFlag                    1
+boundaryFrictionMiu            0
+soilParticleSpacing            0.005
+timeInterval                   1e-06
+numberOfSteps                  800000
+numberOfSubStepsOS             1000
+newmarkMethod                  0
+gamma                          0.5
+beta                           0.25
+dampingFlag                    0
+dampingRatio                   0.05

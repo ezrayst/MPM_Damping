@@ -1,0 +1,17 @@
+#-- input output file names --
+inputMeshFileName              element_testing2/inputFiles/mesh.smf
+inputSubMeshFileName           element_testing2/inputFiles/submesh.dat
+constraintsFileName   	       element_testing2/inputFiles/mesh.constraints
+inputSoilParticleFileName      element_testing2/inputFiles/soilParticles.smf
+initStressSoilPFileName        element_testing2/inputFiles/initStressSoilP.dat
+materialFileName               element_testing2/inputFiles/material.dat
+tractionsSoilPFileName			element_testing2/inputFiles/Traction.dat
+outputFileName                 element_testing2/results/results1.ile
+
+#-- other parameters --
+gravityFlag                    0
+boundaryFrictionMiu            0
+soilParticleSpacing            0.5
+timeInterval                   1e-03
+numberOfSteps                  3000000
+numberOfSubStepsOS             10000
